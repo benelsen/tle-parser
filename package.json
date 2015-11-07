@@ -1,6 +1,6 @@
 {
   "name": "tle-parser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "author": "Ben Elsen <mail@benelsen.com> (https://benelsen.com/)",
   "main": "lib5/index.js",
