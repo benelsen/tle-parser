@@ -38,10 +38,10 @@ const elements = parser(tle)
 -   `right_ascension` **number** Right Ascension of the Ascending Node [degrees]
 -   `arg_pericenter` **number** Argument of Perigee [degrees]
 -   `mean_anomaly` **number** Mean Anomaly [degrees]
--   `mean_motion` **number** Mean Motion [revolutions/day]
--   `mean_motion_dot` **number** First time derivative of the Mean Motion
--   `mean_motion_dot_dot` **number** Second time derivative of the Mean Motion
--   `b_star` **number** B* drag term
+-   `mean_motion` **number** Mean Motion [revolutions * day^-1]
+-   `mean_motion_dot` **number** First time derivative of the Mean Motion [revolutions * day^-2]  (already multiplied by 2)
+-   `mean_motion_dot_dot` **number** Second time derivative of the Mean Motion [revolutions * day^-3]  (already multiplied by 6)
+-   `b_star` **number** B* drag term [earthRadii^-1]
 -   `revolutions_at_epoch` **number** Revolution Number at Epoch
 -   `element_set_number` **number** Element Set Number
 -   `ephemeris_type` **number** Element Set Type
