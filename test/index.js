@@ -2,7 +2,7 @@ import test from 'tape'
 
 import parser from '../lib/'
 
-test('Parsing a Three Line Set #1', t => {
+test('Parsing a three-line element set #1', t => {
 
   t.plan(1)
 
@@ -34,7 +34,7 @@ test('Parsing a Three Line Set #1', t => {
 
 })
 
-test('Parsing a Three Line Set #2', t => {
+test('Parsing a three-line element set #2', t => {
 
   t.plan(1)
 
@@ -66,7 +66,7 @@ test('Parsing a Three Line Set #2', t => {
 
 })
 
-test('Parsing a Three Line Set #3', t => {
+test('Parsing a three-line element set #3', t => {
 
   t.plan(1)
 
@@ -98,7 +98,7 @@ test('Parsing a Three Line Set #3', t => {
 
 })
 
-test('Parsing a Three Line Set #4', t => {
+test('Parsing a three-line element set #4', t => {
 
   t.plan(1)
 
@@ -130,7 +130,7 @@ test('Parsing a Three Line Set #4', t => {
 
 })
 
-test('Parsing a Two Line Set #1', t => {
+test('Parsing a two-line element set #1', t => {
 
   t.plan(1)
 
@@ -157,5 +157,18 @@ test('Parsing a Two Line Set #1', t => {
   }
 
   t.deepEqual( parser(tle), ephemeris )
+
+})
+
+test('Parsing an invalid two-line element set #1', t => {
+
+  t.plan(1)
+
+  const tle = `1 25544U 98067A   15310.90801927  .00009031  00000-0  13975-3 0  9992
+2 25544  51.6440  91.7795 0006748 114.3849  28.9641 15.54854844970241`
+
+  t.throws( () => {
+    parser(tle)
+  })
 
 })

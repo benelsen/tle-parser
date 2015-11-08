@@ -1,7 +1,7 @@
 
 import test from 'tape'
 
-import checksum, {calculateChecksum, extractCheckdigit} from '../lib/checksum'
+import checksum, {calculateChecksum, extractCheckDigit} from '../lib/checksum'
 
 test('Valid TLE lines', t => {
   t.plan(2)
@@ -29,7 +29,7 @@ test('Extract checkdigit from TLE', t => {
   t.plan(1)
 
   const tle1 = '1 25544U 98067A   15310.90801927  .00009032  00000-0  13975-3 0  9997'
-  t.strictEqual(extractCheckdigit(tle1), 7, 'Line 1 checkdigit')
+  t.strictEqual(extractCheckDigit(tle1), 7, 'Line 1 checkdigit')
 
 })
 
