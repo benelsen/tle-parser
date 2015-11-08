@@ -28,20 +28,20 @@ const elements = parser(tle)
 
 **Properties**
 
--   `name` **string**
--   `intl_designator` **string**
--   `catalog_number` **string**
--   `classification_type` **string**
--   `epoch` **string**
--   `mean_motion_dot` **number**
--   `mean_motion_dot_dot` **number**
--   `b_star` **number**
--   `inclination` **number**
--   `right_ascension` **number**
--   `eccentricity` **number**
--   `arg_pericenter` **number**
--   `mean_anomaly` **number**
--   `mean_motion` **number**
--   `revolutions_at_epoch` **number**
--   `element_set_number` **number**
--   `ephemeris_type` **number**
+-   `name` **string** Name of the object
+-   `intl_designator` **string** International Designator (YYYY-NNNAAA)
+-   `catalog_number` **string** Satellite Catalog Number (NNNNN)
+-   `classification_type` **string** Classification Type
+-   `epoch` **string** Epoch as an ISO8601/RFC3339 style date
+-   `inclination` **number** Inclination [degrees]
+-   `eccentricity` **number** Eccentricity
+-   `right_ascension` **number** Right Ascension of the Ascending Node [degrees]
+-   `arg_pericenter` **number** Argument of Perigee [degrees]
+-   `mean_anomaly` **number** Mean Anomaly [degrees]
+-   `mean_motion` **number** Mean Motion [revolutions/day]
+-   `mean_motion_dot` **number** First time derivative of the Mean Motion
+-   `mean_motion_dot_dot` **number** Second time derivative of the Mean Motion
+-   `b_star` **number** B* drag term
+-   `revolutions_at_epoch` **number** Revolution Number at Epoch
+-   `element_set_number` **number** Element Set Number
+-   `ephemeris_type` **number** Element Set Type
