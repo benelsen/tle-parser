@@ -1,8 +1,12 @@
 {
   "name": "tle-parser",
   "version": "0.1.4",
-  "description": "",
+  "description": "TLE parser",
   "author": "Ben Elsen <mail@benelsen.com> (https://benelsen.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benelsen/tle-parser.git"
+  },
   "main": "lib5/index.js",
   "scripts": {
     "build": "babel -d lib5/ lib/",
