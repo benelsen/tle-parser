@@ -1,7 +1,12 @@
 {
   "name": "tle-parser",
   "version": "0.1.4",
-  "description": "TLE parser",
+  "description": "Two-line Element Set Parser",
+  "keywords": [
+    "Two-line Element Set",
+    "Three-line Element Set",
+    "TLE"
+  ],
   "author": "Ben Elsen <mail@benelsen.com> (https://benelsen.com/)",
   "repository": {
     "type": "git",

@@ -1,6 +1,14 @@
 
 # tle-parser
 
+Two-line Element Set (TLE) parser library
+
+## Installation
+
+```bash
+npm install tle-parser
+```
+
 ## API
 
 ### parser
