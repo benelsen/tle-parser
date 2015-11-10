@@ -27,7 +27,7 @@ test('Parsing a three-line element set #1', t => {
     b_star: 0.00013975,
     revolutions_at_epoch: 97024,
     ephemeris_type: 0,
-    element_set_number: 999
+    element_set_number: 999,
   }
 
   t.deepEqual( parser(tle), ephemeris )
@@ -59,7 +59,7 @@ test('Parsing a three-line element set #2', t => {
     b_star: 0,
     revolutions_at_epoch: 5824,
     ephemeris_type: 0,
-    element_set_number: 999
+    element_set_number: 999,
   }
 
   t.deepEqual( parser(tle), ephemeris )
@@ -91,7 +91,7 @@ test('Parsing a three-line element set #3', t => {
     b_star: 0,
     revolutions_at_epoch: 16254,
     ephemeris_type: 0,
-    element_set_number: 999
+    element_set_number: 999,
   }
 
   t.deepEqual( parser(tle), ephemeris )
@@ -123,7 +123,7 @@ test('Parsing a three-line element set #4', t => {
     b_star: 0.00020588,
     revolutions_at_epoch: 66065,
     ephemeris_type: 0,
-    element_set_number: 999
+    element_set_number: 999,
   }
 
   t.deepEqual( parser(tle), ephemeris )
@@ -153,7 +153,7 @@ test('Parsing a two-line element set #1', t => {
     b_star: 0.00013975,
     revolutions_at_epoch: 97024,
     ephemeris_type: 0,
-    element_set_number: 999
+    element_set_number: 999,
   }
 
   t.deepEqual( parser(tle), ephemeris )
