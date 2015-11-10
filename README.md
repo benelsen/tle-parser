@@ -47,8 +47,8 @@ const elements = parser(tle)
 -   `arg_pericenter` **number** Argument of Perigee [degrees]
 -   `mean_anomaly` **number** Mean Anomaly [degrees]
 -   `mean_motion` **number** Mean Motion [revolutions * day^-1]
--   `mean_motion_dot` **number** First time derivative of the Mean Motion [revolutions * day^-2]  (already multiplied by 2)
--   `mean_motion_dot_dot` **number** Second time derivative of the Mean Motion [revolutions * day^-3]  (already multiplied by 6)
+-   `mean_motion_dot` **number** First time derivative of the Mean Motion (already multiplied by 2) [revolutions * day^-2]
+-   `mean_motion_dot_dot` **number** Second time derivative of the Mean Motion (already multiplied by 6) [revolutions * day^-3]
 -   `b_star` **number** B* drag term [earthRadii^-1]
 -   `revolutions_at_epoch` **number** Revolution Number at Epoch
 -   `element_set_number` **number** Element Set Number
