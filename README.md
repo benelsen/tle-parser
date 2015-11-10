@@ -11,6 +11,18 @@ npm install tle-parser
 
 ## API
 
+### Module import
+
+**As a ES2015+ module**
+```javascript
+import parser from 'tle-parser'
+```
+
+**As a CommonJS module (≤ES5)**
+```javascript
+var parser = require('tle-parser').parser
+```
+
 ### parser
 
 Parses a TLE and returns a human readable object of the orbital elements.
