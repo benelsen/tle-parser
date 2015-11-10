@@ -53,3 +53,10 @@ const elements = parser(tle)
 -   `revolutions_at_epoch` **number** Revolution Number at Epoch
 -   `element_set_number` **number** Element Set Number
 -   `ephemeris_type` **number** Element Set Type
+
+## CLI
+
+```bash
+npm install -g tle-parser
+tle2json -o elements.json file-with.tle
+```
