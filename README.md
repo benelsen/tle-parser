@@ -56,7 +56,7 @@ const elements = parser(tle)
 -   `inclination` **number** Inclination [degrees]
 -   `eccentricity` **number** Eccentricity
 -   `right_ascension` **number** Right Ascension of the Ascending Node [degrees]
--   `arg_pericenter` **number** Argument of Perigee [degrees]
+-   `argument_of_periapsis` **number** Argument of Perigee [degrees]
 -   `mean_anomaly` **number** Mean Anomaly [degrees]
 -   `mean_motion` **number** Mean Motion [revolutions * day^-1]
 -   `mean_motion_dot` **number** First time derivative of the Mean Motion (already multiplied by 2) [revolutions * day^-2]
