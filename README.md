@@ -1,6 +1,9 @@
 
 # tle-parser
 
+[![npm version](https://badge.fury.io/js/tle-parser.svg)](https://badge.fury.io/js/tle-parser)
+[![Build Status](https://travis-ci.org/benelsen/tle-parser.svg?branch=master)](https://travis-ci.org/benelsen/tle-parser)
+
 Two-line Element Set (TLE) parser library
 
 ## Installation
