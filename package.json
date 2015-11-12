@@ -21,8 +21,8 @@
     "lint": "eslint lib/ test/",
     "pretest": "npm run lint",
     "test": "babel-tape-runner test/**/*",
-    "version": "npm run lint && npm run test && npm run build",
-    "prepublish": "npm run lint && npm run test && npm run build"
+    "version": "npm run test && npm run build",
+    "prepublish": "npm run test && npm run build"
   },
   "dependencies": {
     "bossy": "^2.0.0",
