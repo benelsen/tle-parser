@@ -13,6 +13,7 @@
     "url": "https://github.com/benelsen/tle-parser.git"
   },
   "main": "lib5/index.js",
+  "jsnext:main": "lib/index.js",
   "bin": {
     "tle2json": "lib5/cli.js"
   },
